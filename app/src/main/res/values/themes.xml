@@ -12,17 +12,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-
-        <item name="preferenceTheme">@style/Overlay</item>
-
-    </style>
-
-    <style name="Overlay" parent="PreferenceThemeOverlay">
-        <item name="editTextPreferenceStyle">@style/SampleEditTextPreference</item>
-    </style>
-
-    <style name="SampleEditTextPreference" parent="Preference.DialogPreference.EditTextPreference.Material">
-        <item name="android:layout">@layout/sample_preference</item>
     </style>
 
 </resources>
